@@ -11,7 +11,13 @@ let fs = require('fs');
 //     console.log('File appended');
 // })
 
-fs.readFile('mycode.txt', (err,data)=>{
-    if(err) throw err;
-    console.log(data);
-})
+// fs.readFile('city.json','utf-8', (err,data)=>{
+//     if(err) throw err;
+//     console.log(data);
+// })
+
+let data = fs.readFileSync('city.json',{encoding:'utf-8',flag:'r'})
+console.log(data);
+
+let data1 = fs.readFileSync('mytext.txt',{encoding:'utf-8',flag:'r'})
+console.log(data1);
