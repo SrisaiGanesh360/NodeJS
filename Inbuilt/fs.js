@@ -16,8 +16,19 @@ let fs = require('fs');
 //     console.log(data);
 // })
 
-let data = fs.readFileSync('city.json',{encoding:'utf-8',flag:'r'})
-console.log(data);
+// let data = fs.readFileSync('city.json',{encoding:'utf-8',flag:'r'}) // in readFIleSync it tries to read data step by step
+// console.log(data);
 
-let data1 = fs.readFileSync('mytext.txt',{encoding:'utf-8',flag:'r'})
-console.log(data1);
+// let data1 = fs.readFileSync('mytext.txt',{encoding:'utf-8',flag:'r'})
+// console.log(data1);
+
+// fs.unlink('mycode.txt',(err)=>{  // delete file
+//     if(err) throw err;
+//     console.log('file deleted');
+// })
+
+fs.rename('mytext.txt', 'myfile.xml',(err)=>{
+    if(err) throw err;
+    console.log('file renamed');
+})
+
