@@ -1,0 +1,6 @@
+The first thing to execute 
+--------------------------
+ > npm i
+ > npm start
+ > apart from start every other command needs run like "npm run dev"
+ 
