@@ -4,8 +4,8 @@ let http = require('http');
 // res is what server send in return
 
 let server = http.createServer((req,res)=>{
-    res.write('<h1>This is NodeJs Server Code</h1>');
+    res.write('<h1>This is NodeJs App Server Code</h1>');
     res.end();
 });
 
-server.listen(7600); // sever.listen(port) port is the adderess
+server.listen(7200); // sever.listen(port) port is the adderess

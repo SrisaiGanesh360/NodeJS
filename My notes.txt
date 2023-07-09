@@ -3,4 +3,9 @@ The first thing to execute
  > npm i
  > npm start
  > apart from start every other command needs run like "npm run dev"
+
+To contineously update the server without restarting the server
+---------------------------------------------------------------
+ > Open cmd as administrator
+ > npm i -g nodemon
  
