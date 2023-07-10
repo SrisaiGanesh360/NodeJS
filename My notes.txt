@@ -9,3 +9,11 @@ To contineously update the server without restarting the server
  > Open cmd as administrator
  > npm i -g nodemon
  
+Generate package.json
+--------------------- 
+ > without answering any question
+ > npm init -y
+
+Required packeges
+-----------------
+ > npm i express ejs dotenv morgan mongodb@4.14.0
