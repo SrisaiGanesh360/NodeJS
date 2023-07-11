@@ -17,3 +17,4 @@ Generate package.json
 Required packeges
 -----------------
  > npm i express ejs dotenv morgan mongodb@4.14.0
+ 
